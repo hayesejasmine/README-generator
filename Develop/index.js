@@ -1,13 +1,10 @@
-// TODO: Include packages needed for this application
+// Packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
-// TODO: Create an array of questions for user input
+// Inquirer question prompts
 const questions = [
-
-inquirer
-    .prompt([
         {
             type: 'input',
             name: 'username',
@@ -32,12 +29,11 @@ inquirer
             type: 'list',
             name: 'license',
             message: 'What type of license should your project have?',
-            choices: ['Apache 2.0','GNU General Public v3.0', 'MIT', 'BSD 2-Clause "Simplified"', 'BSD 3-Clause "New" or "Revised"','Boost Software 1.0',
-            'Creative Commons Zero v1.0 Universal','Eclipse Public 2.0','GNU Affero General Public v3.0','GNU General Public v2.0','GNU Lesser General Public v2.1','Mozilla Public 2.0','The Unlicense','None',]
+            choices: ['Apache 2.0','MIT', 'Mozilla','None',]
         },
         {
             type: 'input',
-            name: 'dependencies',
+            name: 'install',
             message: 'What command should be ran to install dependecies?',
         },
         {
@@ -46,14 +42,19 @@ inquirer
             message: 'What command should be ran to run tests?',
         },
         {
+            type:'input',
+            name: 'contribution',
+            message: 'How can the user contribute to this project?'
+        },
+        {
             type: 'input',
-            name: 'questions',
+            name: 'usage',
             message: 'What does the user need to know about using the repo?',
         },
-     ])
-];
+     ]
 
-// TODO: Create a function to write README file
+
+// write README file
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, (err) => {
     err ? console.log(err) : console.log('Successfully created README!')
@@ -61,7 +62,7 @@ function writeToFile(fileName, data) {
   }
 
   
-// TODO: Create a function to initialize app
+// function to initialize app
 function init() {
     inquirer.prompt(questions)
     .then((input) => {
