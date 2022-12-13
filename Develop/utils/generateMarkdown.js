@@ -34,27 +34,38 @@ function generateMarkdown(data) {
 
 [Questions](#questions)
 
+
 ## Description
 ${data.description}
+
 
 ## Installation
 ${data.install}
 
+
 ## Usage
 ${data.usage}
+
 
 ## License
 ${renderLicenseBadge(data.license)}
 
+
 ## Contribution
 ${data.contribution}
+
 
 ## Tests
 ${data.test}
 
+
 ## Questions
-${data.username}
-${data.email}
+
+Please contact me at:
+
+Github account- ${data.username}
+
+Email Address- ${data.email}
 `;
 }
 

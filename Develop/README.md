@@ -1,4 +1,4 @@
-# ndhdhjjd
+# README Generator
 
 ## Table of Contents
 [Description](#description)
@@ -9,31 +9,41 @@
 
 [License](#license)
 
-
 [Contribution](#contribution)
 
 [Tests](#tests)
 
 [Questions](#questions)
 
+
 ## Description
-hjdjjd
+This project allows users to quickly create a readme.md file
+
 
 ## Installation
-jdhjkd
+npm install or npm i
+
 
 ## Usage
-hjdjjdjd
+Answer the question prompts exaclty how you wish to view them on your readme.md file. Once completed, the readme.md file will generate and stand ready for use!
+
 
 ## License
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 ## Contribution
-jdjjdd
+Email me!
+
 
 ## Tests
-jdjdjjkd
+npm test
+
 
 ## Questions
-jsghdjjkd
-jdkdkd
+
+Please contact me at:
+
+Github account- hayesejasmine
+
+Email Address- hayesejasmine@gmail.com

@@ -23,4 +23,10 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 
-# Submission Video Link
+# Submission Video Link 
+
+https://user-images.githubusercontent.com/114713151/207235240-5090b8cd-2df0-436b-88c1-422d21ee6ca8.webm
+
+# Screenshot images
+image.png
+image.png
