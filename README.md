@@ -28,5 +28,5 @@ THEN I am taken to the corresponding section of the README
 https://user-images.githubusercontent.com/114713151/207235240-5090b8cd-2df0-436b-88c1-422d21ee6ca8.webm
 
 # Screenshot images
-207237270-640cdfdf-861f-4a0a-834a-7c890a54886d.jpeg
-207237285-67b09981-6de1-4a86-8ac1-e6b785ff8973.jpeg
+https://user-images.githubusercontent.com/114713151/207237270-640cdfdf-861f-4a0a-834a-7c890a54886d.jpg
+https://user-images.githubusercontent.com/114713151/207237285-67b09981-6de1-4a86-8ac1-e6b785ff8973.jpg
